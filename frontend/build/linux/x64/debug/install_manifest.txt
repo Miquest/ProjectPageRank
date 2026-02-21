@@ -1,0 +1,13 @@
+/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/bundle/frontend
+/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/bundle/data/icudtl.dat
+/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
+/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
+/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z
+/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/bundle/data/flutter_assets/shaders/stretch_effect.frag
+/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/bundle/data/flutter_assets/shaders/ink_sparkle.frag
+/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/bundle/data/flutter_assets/NativeAssetsManifest.json
+/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.bin
+/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin
+/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/bundle/data/flutter_assets/version.json
+/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf

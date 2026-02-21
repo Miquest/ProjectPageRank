@@ -1,0 +1,44 @@
+name: Update Third Party Notices
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'backend/requirements.txt'
+      - '.github/workflows/update-licenses.yml'
+
+jobs:
+  update-licenses:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install pip-licenses
+
+      - name: Generate ThirdPartyNotices.md
+        run: |
+          echo "# Third Party Notices" > ThirdPartyNotices.md
+          echo "" >> ThirdPartyNotices.md
+          echo "This project utilizes the following third-party open source software components. Generated automatically." >> ThirdPartyNotices.md
+          echo "" >> ThirdPartyNotices.md
+          pip-licenses --with-authors --with-urls --format=markdown >> ThirdPartyNotices.md
+
+      - name: Commit and Push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update ThirdPartyNotices.md [bot]"
+          file_pattern: ThirdPartyNotices.md
