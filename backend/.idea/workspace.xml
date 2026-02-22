@@ -1,220 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="66850c94-fc04-4f95-b31d-3f9c6ce08403" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_client/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_client/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_client/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_client/analysis_options.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_client/dartdoc_options.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_client/doc/endpoint.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_client/lib/projectpagerank_client.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_client/lib/src/protocol/client.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_client/lib/src/protocol/greetings/greeting.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_client/lib/src/protocol/protocol.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_client/pubspec.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/analysis_options.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/android/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/android/app/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/android/app/src/debug/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/android/app/src/main/kotlin/com/example/projectpagerank_flutter/MainActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/android/app/src/main/res/drawable-v21/launch_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/android/app/src/main/res/values-night/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/android/app/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/android/app/src/profile/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/android/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/android/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/android/settings.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/assets/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Flutter/AppFrameworkInfo.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Flutter/Debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Flutter/Release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Runner/AppDelegate.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Runner/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Runner/Base.lproj/Main.storyboard" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Runner/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/Runner/Runner-Bridging-Header.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/ios/RunnerTests/RunnerTests.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/lib/main.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/lib/screens/greetings_screen.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/lib/screens/sign_in_screen.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/linux/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/linux/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/linux/flutter/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/linux/flutter/generated_plugin_registrant.cc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/linux/flutter/generated_plugin_registrant.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/linux/flutter/generated_plugins.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/linux/runner/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/linux/runner/main.cc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/linux/runner/my_application.cc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/linux/runner/my_application.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/macos/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/macos/Flutter/Flutter-Debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/macos/Flutter/Flutter-Release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/macos/Runner.xcodeproj/project.pbxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/macos/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/macos/Runner/AppDelegate.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_1024.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_256.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/macos/Runner/Base.lproj/MainMenu.xib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/macos/Runner/Configs/AppInfo.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/macos/Runner/Configs/Debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/macos/Runner/Configs/Release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/macos/Runner/Configs/Warnings.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/macos/Runner/DebugProfile.entitlements" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/macos/Runner/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/macos/Runner/MainFlutterWindow.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/macos/Runner/Release.entitlements" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/macos/RunnerTests/RunnerTests.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/pubspec.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/pubspec.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/test/widget_test.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/web/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/web/icons/Icon-192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/web/icons/Icon-512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/web/icons/Icon-maskable-192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/web/icons/Icon-maskable-512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/web/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/web/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/windows/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/windows/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/windows/flutter/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/windows/flutter/generated_plugin_registrant.cc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/windows/flutter/generated_plugin_registrant.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/windows/flutter/generated_plugins.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/windows/runner/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/windows/runner/Runner.rc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/windows/runner/flutter_window.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/windows/runner/flutter_window.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/windows/runner/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/windows/runner/resource.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/windows/runner/resources/app_icon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/windows/runner/runner.exe.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/windows/runner/utils.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/windows/runner/utils.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/windows/runner/win32_window.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_flutter/windows/runner/win32_window.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/analysis_options.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/bin/main.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/config/development.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/config/generator.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/config/production.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/config/staging.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/config/test.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/dart_test.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/docker-compose.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/lib/server.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/lib/src/auth/email_idp_endpoint.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/lib/src/auth/jwt_refresh_endpoint.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/lib/src/generated/endpoints.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/lib/src/generated/greetings/greeting.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/lib/src/generated/protocol.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/lib/src/generated/protocol.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/lib/src/greetings/greeting.spy.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/lib/src/greetings/greeting_endpoint.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/lib/src/web/routes/app_config_route.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/lib/src/web/routes/root.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/lib/src/web/widgets/built_with_serverpod_page.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/migrations/20260128113556313/definition.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/migrations/20260128113556313/definition.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/migrations/20260128113556313/definition_project.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/migrations/20260128113556313/migration.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/migrations/20260128113556313/migration.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/migrations/migration_registry.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/pubspec.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/pubspec.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/test/integration/greeting_endpoint_test.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/test/integration/test_tools/serverpod_test_tools.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/web/pages/build_flutter_app.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/web/static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/web/static/images/background.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/web/static/images/serverpod-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projectpagerank_server/web/templates/built_with_serverpod.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/rank_backend/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/crawler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="39yPuiBf0FJIxzATlMEvPRGfo8D" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/backend",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/backend&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="66850c94-fc04-4f95-b31d-3f9c6ce08403" name="Changes" comment="" />
@@ -224,5 +66,16 @@
       <updated>1771665562329</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -1,74 +1,114 @@
+from collections import Counter
+
 import requests
+from django.db.utils import IntegrityError
+from requests.exceptions import RequestException
 from bs4 import BeautifulSoup
 import time
-from urllib.parse import urljoin
+import re
+from .models import Keyword, PageKeyword, WebPage, Link
 
-def crawl_wikipedia(start_url, max_pages=5):
-    visited = set()
-    queue = [start_url]
-    base_url = "https://de.wikipedia.org"
 
-    links_to = {}
+class Crawler:
 
-    headers = {
-        'User-Agent': 'PythonCrawler/1.0'
-    }
+    def __init__(self, start_url: str):
+        self.start_url = start_url
+        self.headers = {
+            'User-Agent': 'PythonCrawler/1.0'
+        }
 
-    print(f"Starte Crawler. Ziel: {max_pages} Seiten.\n" + "-"*40)
+    @staticmethod
+    def clean_text(text: str):
+        text = text.lower()
+        words = re.findall(r'\b\w+\b', text)
+        return words
 
-    while queue and len(visited) < max_pages:
-        current_url = queue.pop(0)
-
-        if current_url in visited:
-            continue
-
-        print(f"\nCrawle: {current_url}")
-
-        try:
-            response = requests.get(current_url, headers=headers)
-            response.raise_for_status() # Prüft auf HTTP-Fehler (z.B. 404)
-        except requests.exceptions.RequestException as e:
-            print(f"Fehler beim Abrufen: {e}")
-            continue
-
-        # HTML mit BeautifulSoup parsen
-        soup = BeautifulSoup(response.content, 'html.parser')
-        visited.add(current_url)
-
-        # --- DATEN EXTRAHIEREN ---
-
-        # 1. Titel der Seite (steht im <h1> Tag mit der ID 'firstHeading')
-        title_tag = soup.find('h1', id='firstHeading')
+    def collect_page_metadata(self, soup: BeautifulSoup, url: str):
+        title_tag = soup.find('title')
         title = title_tag.text if title_tag else "Kein Titel gefunden"
         print(f"Titel: {title}")
 
-        # 2. Ersten echten Absatz extrahieren
-        content_div = soup.find('div', class_='mw-parser-output')
-        if content_div:
-            # Finde alle <p> Tags direkt im Inhaltsbereich
-            for p in content_div.find_all('p', recursive=False):
-                if p.text.strip(): # Den ersten nicht-leeren Absatz nehmen
-                    print(f"Vorschau: {p.text.strip()[:100]}...")
-                    break
+        expression_list = self.clean_text(soup.get_text())
+        keyword_count = Counter(expression_list)
 
-        # --- NEUE LINKS FINDEN ---
+        try:
+            current_web_page, _ = WebPage.objects.get_or_create(url=url,
+                                                                title=title,
+                                                                content=soup.get_text(
+                                                                    separator=" ", strip=True
+                                                                ))
+        except IntegrityError:
+            return
 
-        links_to[current_url] = []
+        for word, count in keyword_count.items():
+            # Filter words like "is" or "I" etc.
+            if len(word) < 3:
+                continue
 
-        for link in soup.find_all('a', href=True):
-            href = link['href']
+            keyword_object, _ = Keyword.objects.get_or_create(word=word)
 
-            if href.startswith("http"):
-                links_to[current_url].append(href)
+            # Connection table between keywords and web pages
+            PageKeyword.objects.update_or_create(
+                page=current_web_page,
+                keyword=keyword_object,
+                frequency=count
+            )
 
+    def find_links(self, soup: BeautifulSoup, url: str) -> set:
 
-            if href.startswith('/wiki/') and ':' not in href:
-                full_url = urljoin(base_url, href)
+        current_page = WebPage.objects.filter(url=url).first()
+        anchors = soup.find_all("a", href=True)
+        queue_items = set()
 
-                if full_url not in visited and full_url not in queue:
-                    queue.append(full_url)
+        for anchor in anchors:
+            link = anchor["href"]
 
-        time.sleep(0.5)
+            # Skip links that do not start with http
+            if not link.startswith("http"):
+                continue
 
-    print("\n" + "-"*40 + f"\nCrawl beendet. {len(visited)} Seiten besucht.")
-    print(links_to)
+            target_page, _ = WebPage.objects.get_or_create(url=link)
+
+            if current_page != target_page:
+                Link.objects.get_or_create(
+                    from_page=current_page,
+                    to_page=target_page
+                )
+
+                queue_items.add(link)
+
+        return queue_items
+
+    def crawl(self, max_pages=5):
+
+        visited = set()
+        crawl_counter = 0
+        queue = set()
+        queue.add(self.start_url)
+
+        while queue and crawl_counter < max_pages:
+            current_url = queue.pop()
+
+            if current_url in visited:
+                continue
+
+            print(f"\nCrawling: {current_url}")
+
+            try:
+                response = requests.get(current_url, headers=self.headers)
+                response.raise_for_status()
+            except RequestException:
+                print("Error reaching this page. Continue...")
+                continue
+
+            # Parse content and add URL to visited set
+            soup = BeautifulSoup(response.content, 'html.parser')
+            visited.add(current_url)
+            self.collect_page_metadata(soup, current_url)
+
+            new_items = self.find_links(soup, current_url)
+            queue = queue.union(new_items)
+
+            time.sleep(0.3)
+
+            crawl_counter += 1
