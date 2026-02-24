@@ -4,18 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66850c94-fc04-4f95-b31d-3f9c6ce08403" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/rank_backend/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+    <list default="true" id="66850c94-fc04-4f95-b31d-3f9c6ce08403" name="Changes" comment="Added frontend software">
+      <change afterPath="$PROJECT_DIR$/../frontend/lib/internal/search_client.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/lib/internal/search_result.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/lib/results/result_bloc.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/lib/results/results.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/lib/search.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crawler/crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/crawler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crawler/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crawler/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/search/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/search/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/build/.last_build_id" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/build/.last_build_id" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/build/6f4a15e49d0bc622ec76656f5f470141.cache.dill.track.dill" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/build/bf8ea50e7eb6ff3b888616beb2260652/gen_dart_plugin_registrant.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/build/bf8ea50e7eb6ff3b888616beb2260652/gen_dart_plugin_registrant.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/build/flutter_assets/AssetManifest.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/build/flutter_assets/AssetManifest.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/build/flutter_assets/NOTICES.Z" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/build/flutter_assets/NOTICES.Z" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/build/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/build/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/build/linux/x64/debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/build/linux/x64/debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/build/linux/x64/debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/build/linux/x64/debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/build/linux/x64/debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/build/linux/x64/debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/build/linux/x64/debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/build/linux/x64/debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/build/linux/x64/debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/build/linux/x64/debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/build/linux/x64/debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/build/linux/x64/debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/build/linux/x64/debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/build/linux/x64/debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/build/linux/x64/debug/bundle/frontend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/build/linux/x64/debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/build/linux/x64/debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/build/linux/x64/debug/install_manifest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/build/linux/x64/debug/install_manifest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/build/linux/x64/debug/intermediates_do_not_run/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/build/linux/x64/debug/intermediates_do_not_run/frontend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/linux/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/linux/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/linux/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/linux/flutter/generated_plugin_registrant.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/linux/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/linux/flutter/generated_plugins.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/test/widget_test.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +61,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Miquest&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Miquest/ProjectPageRank.git&quot;,
+    &quot;accountId&quot;: &quot;62697446-c882-4df3-9fde-da4fb0044423&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -40,23 +81,61 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/backend&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Django Run.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/backend",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "show.migrate.to.gradle.popup": "false",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RunManager" selected="Python.Django Run">
+    <configuration name="Django Run" type="PythonConfigurationType" factoryName="Python">
+      <module name="backend" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.14" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="66850c94-fc04-4f95-b31d-3f9c6ce08403" name="Changes" comment="" />
@@ -64,8 +143,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1771665562329</updated>
+      <workItem from="1771949567417" duration="275000" />
+      <workItem from="1771949857962" duration="191000" />
     </task>
+    <task id="LOCAL-00001" summary="Added class-based crawler and db structure">
+      <option name="closed" value="true" />
+      <created>1771779505197</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1771779505198</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -77,5 +170,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added class-based crawler and db structure" />
+    <MESSAGE value="Added frontend software" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added frontend software" />
   </component>
 </project>

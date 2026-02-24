@@ -15,7 +15,7 @@ class Crawl(APIView):
 
     def get(self, request: HttpRequest):
 
-        crawler = Crawler("https://en.wikipedia.org/wiki/Python_(programming_language)")
-        crawler.crawl(10)
+        crawler = Crawler("https://azure.microsoft.com/de-de/resources/cloud-computing-dictionary/what-is-java-programming-language")
+        crawler.crawl(50)
 
         return HttpResponse(JSONRenderer().render({}), content_type="application/json")

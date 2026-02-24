@@ -21,8 +21,6 @@ class Link(models.Model):
     to_page = models.ForeignKey(WebPage, related_name='incoming_links', on_delete=models.CASCADE)
 
     class Meta:
-        # Combined primary key, so that one link
-        # cannot be counted twice
         unique_together = ('from_page', 'to_page')
 
 class PageKeyword(models.Model):

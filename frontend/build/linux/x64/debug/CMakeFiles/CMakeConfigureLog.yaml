@@ -241,3 +241,14 @@ events:
       Running the CXX compiler's linker: "/usr/bin/ld" "-v"
       GNU ld version 2.45-1.fc43
 ...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Linux - 6.18.12-200.fc43.x86_64 - x86_64
+...

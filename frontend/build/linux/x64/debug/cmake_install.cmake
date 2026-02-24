@@ -49,29 +49,29 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/bundle/frontend" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/bundle/frontend")
+  if(EXISTS "$ENV{DESTDIR}/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/bundle/Searchy" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/bundle/Searchy")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/bundle/frontend"
+         FILE "$ENV{DESTDIR}/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/bundle/Searchy"
          RPATH "$ORIGIN/lib")
   endif()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/bundle/frontend")
+   "/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/bundle/Searchy")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/bundle" TYPE EXECUTABLE FILES "/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/intermediates_do_not_run/frontend")
-  if(EXISTS "$ENV{DESTDIR}/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/bundle/frontend" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/bundle/frontend")
+  file(INSTALL DESTINATION "/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/bundle" TYPE EXECUTABLE FILES "/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/intermediates_do_not_run/Searchy")
+  if(EXISTS "$ENV{DESTDIR}/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/bundle/Searchy" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/bundle/Searchy")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/bundle/frontend"
-         OLD_RPATH "/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral:"
+         FILE "$ENV{DESTDIR}/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/bundle/Searchy"
+         OLD_RPATH "/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/plugins/url_launcher_linux:/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral:"
          NEW_RPATH "$ORIGIN/lib")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/bundle/frontend")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/bundle/Searchy")
     endif()
   endif()
 endif()
@@ -98,6 +98,18 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   file(INSTALL DESTINATION "/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/bundle/lib" TYPE FILE FILES "/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/libflutter_linux_gtk.so")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/bundle/lib/liburl_launcher_linux_plugin.so")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  file(INSTALL DESTINATION "/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/bundle/lib" TYPE FILE FILES "/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/plugins/url_launcher_linux/liburl_launcher_linux_plugin.so")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -134,6 +146,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/flutter/cmake_install.cmake")
   include("/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/runner/cmake_install.cmake")
+  include("/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/plugins/url_launcher_linux/cmake_install.cmake")
 
 endif()
 

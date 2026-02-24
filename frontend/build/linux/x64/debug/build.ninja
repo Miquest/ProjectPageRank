@@ -194,7 +194,7 @@ build flutter/CMakeFiles/flutter_assemble | ${cmake_ninja_workdir}flutter/CMakeF
 # Custom command for /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/libflutter_linux_gtk.so
 
 build /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/libflutter_linux_gtk.so /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_engine.h /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_method_call.h /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_method_response.h /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_value.h /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_view.h /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/flutter_linux.h flutter/_phony_ | ${cmake_ninja_workdir}flutter/_phony_: CUSTOM_COMMAND
-  COMMAND = cd /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/flutter && /usr/bin/cmake -E env FLUTTER_ROOT=/home/mikaschreiber/flutter PROJECT_DIR=/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend DART_DEFINES=RkxVVFRFUl9WRVJTSU9OPTMuNDEuMg==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049OTA2NzNhNGVlZg==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NmMwYmFhZWJmNw==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMS4w DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/.dart_tool/package_config.json FLUTTER_TARGET=/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/lib/main.dart /home/mikaschreiber/flutter/packages/flutter_tools/bin/tool_backend.sh linux-x64 Debug
+  COMMAND = cd /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/flutter && /usr/bin/cmake -E env FLUTTER_ROOT=/opt/flutter PROJECT_DIR=/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend DART_DEFINES=Zmx1dHRlci5pbnNwZWN0b3Iuc3RydWN0dXJlZEVycm9ycz10cnVl,RkxVVFRFUl9WRVJTSU9OPTMuNDEuMg==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049OTA2NzNhNGVlZg==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NmMwYmFhZWJmNw==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMS4w DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/.dart_tool/package_config.json FLUTTER_TARGET=/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/lib/main.dart /opt/flutter/packages/flutter_tools/bin/tool_backend.sh linux-x64 Debug
   DESC = Generating /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/libflutter_linux_gtk.so, /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h, /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h, /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h, /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h, /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_engine.h, /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h, /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h, /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h, /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_method_call.h, /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h, /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h, /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_method_response.h, /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h, /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h, /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h, /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h, /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h, /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_value.h, /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/fl_view.h, /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/flutter_linux/flutter_linux.h, _phony_
   restat = 1
 
@@ -204,64 +204,56 @@ build /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRan
 # =============================================================================
 
 # =============================================================================
-# Object build statements for EXECUTABLE target frontend
+# Object build statements for EXECUTABLE target Searchy
 
 
 #############################################
-# Order-only phony target for frontend
+# Order-only phony target for Searchy
 
-build cmake_object_order_depends_target_frontend: phony || flutter/flutter_assemble
+build cmake_object_order_depends_target_Searchy: phony || cmake_object_order_depends_target_url_launcher_linux_plugin flutter/flutter_assemble
 
-build runner/CMakeFiles/frontend.dir/main.cc.o: CXX_COMPILER__frontend_unscanned_Debug /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/runner/main.cc || cmake_object_order_depends_target_frontend
+build runner/CMakeFiles/Searchy.dir/main.cc.o: CXX_COMPILER__Searchy_unscanned_Debug /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/runner/main.cc || cmake_object_order_depends_target_Searchy
   DEFINES = -DAPPLICATION_ID=\"com.miquest.frontend\"
-  DEP_FILE = runner/CMakeFiles/frontend.dir/main.cc.o.d
+  DEP_FILE = runner/CMakeFiles/Searchy.dir/main.cc.o.d
   FLAGS = -g -Wall -Werror -DWITH_GZFILEOP -pthread
-  INCLUDES = -I/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux -I/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cloudproviders -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/glycin-2 -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/lib64/pkgconfig/../../include/dbus-1.0 -isystem /usr/lib64/pkgconfig/../../lib64/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/libxml2 -isystem /usr/include/pixman-1 -isystem /usr/include/harfbuzz -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/gio-unix-2.0 -isystem /usr/include/glib-2.0 -isystem /usr/lib64/glib-2.0/include -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/sysprof-6
-  OBJECT_DIR = runner/CMakeFiles/frontend.dir
-  OBJECT_FILE_DIR = runner/CMakeFiles/frontend.dir
-  TARGET_COMPILE_PDB = runner/CMakeFiles/frontend.dir/
-  TARGET_PDB = intermediates_do_not_run/frontend.pdb
+  INCLUDES = -I/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux -I/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral -I/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux/include -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cloudproviders -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/glycin-2 -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/lib64/pkgconfig/../../include/dbus-1.0 -isystem /usr/lib64/pkgconfig/../../lib64/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/libxml2 -isystem /usr/include/pixman-1 -isystem /usr/include/harfbuzz -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/gio-unix-2.0 -isystem /usr/include/glib-2.0 -isystem /usr/lib64/glib-2.0/include -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/sysprof-6
+  OBJECT_DIR = runner/CMakeFiles/Searchy.dir
+  OBJECT_FILE_DIR = runner/CMakeFiles/Searchy.dir
 
-build runner/CMakeFiles/frontend.dir/my_application.cc.o: CXX_COMPILER__frontend_unscanned_Debug /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/runner/my_application.cc || cmake_object_order_depends_target_frontend
+build runner/CMakeFiles/Searchy.dir/my_application.cc.o: CXX_COMPILER__Searchy_unscanned_Debug /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/runner/my_application.cc || cmake_object_order_depends_target_Searchy
   DEFINES = -DAPPLICATION_ID=\"com.miquest.frontend\"
-  DEP_FILE = runner/CMakeFiles/frontend.dir/my_application.cc.o.d
+  DEP_FILE = runner/CMakeFiles/Searchy.dir/my_application.cc.o.d
   FLAGS = -g -Wall -Werror -DWITH_GZFILEOP -pthread
-  INCLUDES = -I/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux -I/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cloudproviders -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/glycin-2 -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/lib64/pkgconfig/../../include/dbus-1.0 -isystem /usr/lib64/pkgconfig/../../lib64/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/libxml2 -isystem /usr/include/pixman-1 -isystem /usr/include/harfbuzz -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/gio-unix-2.0 -isystem /usr/include/glib-2.0 -isystem /usr/lib64/glib-2.0/include -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/sysprof-6
-  OBJECT_DIR = runner/CMakeFiles/frontend.dir
-  OBJECT_FILE_DIR = runner/CMakeFiles/frontend.dir
-  TARGET_COMPILE_PDB = runner/CMakeFiles/frontend.dir/
-  TARGET_PDB = intermediates_do_not_run/frontend.pdb
+  INCLUDES = -I/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux -I/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral -I/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux/include -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cloudproviders -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/glycin-2 -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/lib64/pkgconfig/../../include/dbus-1.0 -isystem /usr/lib64/pkgconfig/../../lib64/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/libxml2 -isystem /usr/include/pixman-1 -isystem /usr/include/harfbuzz -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/gio-unix-2.0 -isystem /usr/include/glib-2.0 -isystem /usr/lib64/glib-2.0/include -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/sysprof-6
+  OBJECT_DIR = runner/CMakeFiles/Searchy.dir
+  OBJECT_FILE_DIR = runner/CMakeFiles/Searchy.dir
 
-build runner/CMakeFiles/frontend.dir/__/flutter/generated_plugin_registrant.cc.o: CXX_COMPILER__frontend_unscanned_Debug /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/generated_plugin_registrant.cc || cmake_object_order_depends_target_frontend
+build runner/CMakeFiles/Searchy.dir/__/flutter/generated_plugin_registrant.cc.o: CXX_COMPILER__Searchy_unscanned_Debug /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/generated_plugin_registrant.cc || cmake_object_order_depends_target_Searchy
   DEFINES = -DAPPLICATION_ID=\"com.miquest.frontend\"
-  DEP_FILE = runner/CMakeFiles/frontend.dir/__/flutter/generated_plugin_registrant.cc.o.d
+  DEP_FILE = runner/CMakeFiles/Searchy.dir/__/flutter/generated_plugin_registrant.cc.o.d
   FLAGS = -g -Wall -Werror -DWITH_GZFILEOP -pthread
-  INCLUDES = -I/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux -I/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cloudproviders -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/glycin-2 -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/lib64/pkgconfig/../../include/dbus-1.0 -isystem /usr/lib64/pkgconfig/../../lib64/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/libxml2 -isystem /usr/include/pixman-1 -isystem /usr/include/harfbuzz -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/gio-unix-2.0 -isystem /usr/include/glib-2.0 -isystem /usr/lib64/glib-2.0/include -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/sysprof-6
-  OBJECT_DIR = runner/CMakeFiles/frontend.dir
-  OBJECT_FILE_DIR = runner/CMakeFiles/frontend.dir/__/flutter
-  TARGET_COMPILE_PDB = runner/CMakeFiles/frontend.dir/
-  TARGET_PDB = intermediates_do_not_run/frontend.pdb
+  INCLUDES = -I/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux -I/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral -I/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux/include -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cloudproviders -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/glycin-2 -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/lib64/pkgconfig/../../include/dbus-1.0 -isystem /usr/lib64/pkgconfig/../../lib64/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/libxml2 -isystem /usr/include/pixman-1 -isystem /usr/include/harfbuzz -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/gio-unix-2.0 -isystem /usr/include/glib-2.0 -isystem /usr/lib64/glib-2.0/include -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/sysprof-6
+  OBJECT_DIR = runner/CMakeFiles/Searchy.dir
+  OBJECT_FILE_DIR = runner/CMakeFiles/Searchy.dir/__/flutter
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target frontend
+# Link build statements for EXECUTABLE target Searchy
 
 
 #############################################
-# Link the executable intermediates_do_not_run/frontend
+# Link the executable intermediates_do_not_run/Searchy
 
-build intermediates_do_not_run/frontend: CXX_EXECUTABLE_LINKER__frontend_Debug runner/CMakeFiles/frontend.dir/main.cc.o runner/CMakeFiles/frontend.dir/my_application.cc.o runner/CMakeFiles/frontend.dir/__/flutter/generated_plugin_registrant.cc.o | /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/libflutter_linux_gtk.so /usr/lib64/libgtk-3.so /usr/lib64/libgdk-3.so /usr/lib64/libz.so /usr/lib64/libpangocairo-1.0.so /usr/lib64/libpango-1.0.so /usr/lib64/libharfbuzz.so /usr/lib64/libatk-1.0.so /usr/lib64/libcairo-gobject.so /usr/lib64/libcairo.so /usr/lib64/libgdk_pixbuf-2.0.so /usr/lib64/libgio-2.0.so /usr/lib64/libgobject-2.0.so /usr/lib64/libglib-2.0.so || flutter/flutter_assemble
-  DEP_FILE = runner/CMakeFiles/frontend.dir/link.d
+build intermediates_do_not_run/Searchy: CXX_EXECUTABLE_LINKER__Searchy_Debug runner/CMakeFiles/Searchy.dir/main.cc.o runner/CMakeFiles/Searchy.dir/my_application.cc.o runner/CMakeFiles/Searchy.dir/__/flutter/generated_plugin_registrant.cc.o | plugins/url_launcher_linux/liburl_launcher_linux_plugin.so /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/libflutter_linux_gtk.so /usr/lib64/libgtk-3.so /usr/lib64/libgdk-3.so /usr/lib64/libz.so /usr/lib64/libpangocairo-1.0.so /usr/lib64/libpango-1.0.so /usr/lib64/libharfbuzz.so /usr/lib64/libatk-1.0.so /usr/lib64/libcairo-gobject.so /usr/lib64/libcairo.so /usr/lib64/libgdk_pixbuf-2.0.so /usr/lib64/libgio-2.0.so /usr/lib64/libgobject-2.0.so /usr/lib64/libglib-2.0.so || flutter/flutter_assemble plugins/url_launcher_linux/liburl_launcher_linux_plugin.so
+  DEP_FILE = runner/CMakeFiles/Searchy.dir/link.d
   FLAGS = -g
-  LINK_FLAGS = -Xlinker --dependency-file=runner/CMakeFiles/frontend.dir/link.d
-  LINK_LIBRARIES = -Wl,-rpath,/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral:  -lflutter_linux_gtk  /usr/lib64/libgtk-3.so  /usr/lib64/libgdk-3.so  /usr/lib64/libz.so  /usr/lib64/libpangocairo-1.0.so  /usr/lib64/libpango-1.0.so  /usr/lib64/libharfbuzz.so  /usr/lib64/libatk-1.0.so  /usr/lib64/libcairo-gobject.so  /usr/lib64/libcairo.so  /usr/lib64/libgdk_pixbuf-2.0.so  /usr/lib64/libgio-2.0.so  /usr/lib64/libgobject-2.0.so  /usr/lib64/libglib-2.0.so
-  LINK_PATH = -L/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral
-  OBJECT_DIR = runner/CMakeFiles/frontend.dir
+  LINK_FLAGS = -Xlinker --dependency-file=runner/CMakeFiles/Searchy.dir/link.d
+  LINK_LIBRARIES = -Wl,-rpath,/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/plugins/url_launcher_linux:/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral:  plugins/url_launcher_linux/liburl_launcher_linux_plugin.so  /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/libflutter_linux_gtk.so  /usr/lib64/libgtk-3.so  /usr/lib64/libgdk-3.so  /usr/lib64/libz.so  /usr/lib64/libpangocairo-1.0.so  /usr/lib64/libpango-1.0.so  /usr/lib64/libharfbuzz.so  /usr/lib64/libatk-1.0.so  /usr/lib64/libcairo-gobject.so  /usr/lib64/libcairo.so  /usr/lib64/libgdk_pixbuf-2.0.so  /usr/lib64/libgio-2.0.so  /usr/lib64/libgobject-2.0.so  /usr/lib64/libglib-2.0.so
+  OBJECT_DIR = runner/CMakeFiles/Searchy.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = runner/CMakeFiles/frontend.dir/
-  TARGET_FILE = intermediates_do_not_run/frontend
-  TARGET_PDB = intermediates_do_not_run/frontend.pdb
+  TARGET_FILE = intermediates_do_not_run/Searchy
+  TARGET_PDB = Searchy.dbg
 
 
 #############################################
@@ -330,11 +322,132 @@ build runner/CMakeFiles/install/strip.util: CUSTOM_COMMAND runner/all
 build runner/install/strip: phony runner/CMakeFiles/install/strip.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/generated_plugins.cmake
+# =============================================================================
+
+# =============================================================================
+# Object build statements for SHARED_LIBRARY target url_launcher_linux_plugin
+
+
+#############################################
+# Order-only phony target for url_launcher_linux_plugin
+
+build cmake_object_order_depends_target_url_launcher_linux_plugin: phony || flutter/flutter_assemble
+
+build plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/messages.g.cc.o: CXX_COMPILER__url_launcher_linux_plugin_unscanned_Debug /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux/messages.g.cc || cmake_object_order_depends_target_url_launcher_linux_plugin
+  DEFINES = -DFLUTTER_PLUGIN_IMPL -Durl_launcher_linux_plugin_EXPORTS
+  DEP_FILE = plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/messages.g.cc.o.d
+  FLAGS = -g -fPIC -fvisibility=hidden -Wall -Werror -DWITH_GZFILEOP -pthread
+  INCLUDES = -I/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cloudproviders -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/glycin-2 -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/lib64/pkgconfig/../../include/dbus-1.0 -isystem /usr/lib64/pkgconfig/../../lib64/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/libxml2 -isystem /usr/include/pixman-1 -isystem /usr/include/harfbuzz -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/gio-unix-2.0 -isystem /usr/include/glib-2.0 -isystem /usr/lib64/glib-2.0/include -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/sysprof-6
+  OBJECT_DIR = plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir
+  OBJECT_FILE_DIR = plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir
+
+build plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/url_launcher_plugin.cc.o: CXX_COMPILER__url_launcher_linux_plugin_unscanned_Debug /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux/url_launcher_plugin.cc || cmake_object_order_depends_target_url_launcher_linux_plugin
+  DEFINES = -DFLUTTER_PLUGIN_IMPL -Durl_launcher_linux_plugin_EXPORTS
+  DEP_FILE = plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/url_launcher_plugin.cc.o.d
+  FLAGS = -g -fPIC -fvisibility=hidden -Wall -Werror -DWITH_GZFILEOP -pthread
+  INCLUDES = -I/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral -isystem /usr/include/gtk-3.0 -isystem /usr/include/pango-1.0 -isystem /usr/include/cloudproviders -isystem /usr/include/cairo -isystem /usr/include/gdk-pixbuf-2.0 -isystem /usr/include/glycin-2 -isystem /usr/include/at-spi2-atk/2.0 -isystem /usr/include/at-spi-2.0 -isystem /usr/include/atk-1.0 -isystem /usr/lib64/pkgconfig/../../include/dbus-1.0 -isystem /usr/lib64/pkgconfig/../../lib64/dbus-1.0/include -isystem /usr/include/fribidi -isystem /usr/include/libxml2 -isystem /usr/include/pixman-1 -isystem /usr/include/harfbuzz -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/gio-unix-2.0 -isystem /usr/include/glib-2.0 -isystem /usr/lib64/glib-2.0/include -isystem /usr/include/libmount -isystem /usr/include/blkid -isystem /usr/include/sysprof-6
+  OBJECT_DIR = plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir
+  OBJECT_FILE_DIR = plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir
+
+
+# =============================================================================
+# Link build statements for SHARED_LIBRARY target url_launcher_linux_plugin
+
+
+#############################################
+# Link the shared library plugins/url_launcher_linux/liburl_launcher_linux_plugin.so
+
+build plugins/url_launcher_linux/liburl_launcher_linux_plugin.so: CXX_SHARED_LIBRARY_LINKER__url_launcher_linux_plugin_Debug plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/messages.g.cc.o plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/url_launcher_plugin.cc.o | /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/libflutter_linux_gtk.so /usr/lib64/libgtk-3.so /usr/lib64/libgdk-3.so /usr/lib64/libz.so /usr/lib64/libpangocairo-1.0.so /usr/lib64/libpango-1.0.so /usr/lib64/libharfbuzz.so /usr/lib64/libatk-1.0.so /usr/lib64/libcairo-gobject.so /usr/lib64/libcairo.so /usr/lib64/libgdk_pixbuf-2.0.so /usr/lib64/libgio-2.0.so /usr/lib64/libgobject-2.0.so /usr/lib64/libglib-2.0.so || flutter/flutter_assemble
+  DEP_FILE = plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/link.d
+  LANGUAGE_COMPILE_FLAGS = -g
+  LINK_FLAGS = -Xlinker --dependency-file=plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir/link.d
+  LINK_LIBRARIES = -Wl,-rpath,/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral  /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/libflutter_linux_gtk.so  /usr/lib64/libgtk-3.so  /usr/lib64/libgdk-3.so  /usr/lib64/libz.so  /usr/lib64/libpangocairo-1.0.so  /usr/lib64/libpango-1.0.so  /usr/lib64/libharfbuzz.so  /usr/lib64/libatk-1.0.so  /usr/lib64/libcairo-gobject.so  /usr/lib64/libcairo.so  /usr/lib64/libgdk_pixbuf-2.0.so  /usr/lib64/libgio-2.0.so  /usr/lib64/libgobject-2.0.so  /usr/lib64/libglib-2.0.so
+  OBJECT_DIR = plugins/url_launcher_linux/CMakeFiles/url_launcher_linux_plugin.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  SONAME = liburl_launcher_linux_plugin.so
+  SONAME_FLAG = -Wl,-soname,
+  TARGET_FILE = plugins/url_launcher_linux/liburl_launcher_linux_plugin.so
+  TARGET_PDB = url_launcher_linux_plugin.so.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build plugins/url_launcher_linux/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/plugins/url_launcher_linux && /usr/bin/ccmake -S/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux -B/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build plugins/url_launcher_linux/edit_cache: phony plugins/url_launcher_linux/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build plugins/url_launcher_linux/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/plugins/url_launcher_linux && /usr/bin/cmake --regenerate-during-build -S/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux -B/home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build plugins/url_launcher_linux/rebuild_cache: phony plugins/url_launcher_linux/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build plugins/url_launcher_linux/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build plugins/url_launcher_linux/CMakeFiles/install.util: CUSTOM_COMMAND plugins/url_launcher_linux/all
+  COMMAND = cd /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/plugins/url_launcher_linux && /usr/bin/cmake -P cmake_install.cmake
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build plugins/url_launcher_linux/install: phony plugins/url_launcher_linux/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build plugins/url_launcher_linux/CMakeFiles/install/local.util: CUSTOM_COMMAND plugins/url_launcher_linux/all
+  COMMAND = cd /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/plugins/url_launcher_linux && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build plugins/url_launcher_linux/install/local: phony plugins/url_launcher_linux/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build plugins/url_launcher_linux/CMakeFiles/install/strip.util: CUSTOM_COMMAND plugins/url_launcher_linux/all
+  COMMAND = cd /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/plugins/url_launcher_linux && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build plugins/url_launcher_linux/install/strip: phony plugins/url_launcher_linux/CMakeFiles/install/strip.util
+
+# =============================================================================
 # Target aliases.
+
+build Searchy: phony intermediates_do_not_run/Searchy
 
 build flutter_assemble: phony flutter/flutter_assemble
 
-build frontend: phony intermediates_do_not_run/frontend
+build liburl_launcher_linux_plugin.so: phony plugins/url_launcher_linux/liburl_launcher_linux_plugin.so
+
+build url_launcher_linux_plugin: phony plugins/url_launcher_linux/liburl_launcher_linux_plugin.so
 
 # =============================================================================
 # Folder targets.
@@ -344,7 +457,7 @@ build frontend: phony intermediates_do_not_run/frontend
 #############################################
 # Folder: /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug
 
-build all: phony flutter/all runner/all
+build all: phony flutter/all runner/all plugins/url_launcher_linux/all
 
 # =============================================================================
 
@@ -356,9 +469,16 @@ build flutter/all: phony
 # =============================================================================
 
 #############################################
+# Folder: /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/plugins/url_launcher_linux
+
+build plugins/url_launcher_linux/all: phony plugins/url_launcher_linux/liburl_launcher_linux_plugin.so
+
+# =============================================================================
+
+#############################################
 # Folder: /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/build/linux/x64/debug/runner
 
-build runner/all: phony intermediates_do_not_run/frontend
+build runner/all: phony intermediates_do_not_run/Searchy
 
 # =============================================================================
 # Built-in targets
@@ -367,14 +487,14 @@ build runner/all: phony intermediates_do_not_run/frontend
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/CMakeLists.txt /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/CMakeLists.txt /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/generated_config.cmake /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/generated_plugins.cmake /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/runner/CMakeLists.txt /usr/share/cmake/Modules/CMakeCXXCompiler.cmake.in /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeCompilerIdDetection.cmake /usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake /usr/share/cmake/Modules/CMakeDetermineCompiler.cmake /usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake /usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake /usr/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake /usr/share/cmake/Modules/CMakeDetermineSystem.cmake /usr/share/cmake/Modules/CMakeFindBinUtils.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeNinjaFindMake.cmake /usr/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake /usr/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake /usr/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake /usr/share/cmake/Modules/CMakeSystem.cmake.in /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake /usr/share/cmake/Modules/CMakeTestCompilerCommon.cmake /usr/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/Clang-CXX-CXXImportStd.cmake /usr/share/cmake/Modules/Compiler/Clang-CXX.cmake /usr/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake /usr/share/cmake/Modules/Compiler/Clang.cmake /usr/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /usr/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindPkgConfig.cmake /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake /usr/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake /usr/share/cmake/Modules/Internal/FeatureTesting.cmake /usr/share/cmake/Modules/Linker/GNU-CXX.cmake /usr/share/cmake/Modules/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Clang-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-Determine-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.31.10/CMakeCXXCompiler.cmake CMakeFiles/3.31.10/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/CMakeLists.txt /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/CMakeLists.txt /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux/CMakeLists.txt /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/generated_config.cmake /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/generated_plugins.cmake /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/runner/CMakeLists.txt /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/Clang-CXX.cmake /usr/share/cmake/Modules/Compiler/Clang.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindPkgConfig.cmake /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/share/cmake/Modules/Linker/GNU-CXX.cmake /usr/share/cmake/Modules/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Clang-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.31.10/CMakeCXXCompiler.cmake CMakeFiles/3.31.10/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/CMakeLists.txt /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/CMakeLists.txt /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/generated_config.cmake /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/generated_plugins.cmake /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/runner/CMakeLists.txt /usr/share/cmake/Modules/CMakeCXXCompiler.cmake.in /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeCompilerIdDetection.cmake /usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake /usr/share/cmake/Modules/CMakeDetermineCompiler.cmake /usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake /usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake /usr/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake /usr/share/cmake/Modules/CMakeDetermineSystem.cmake /usr/share/cmake/Modules/CMakeFindBinUtils.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeNinjaFindMake.cmake /usr/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake /usr/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake /usr/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake /usr/share/cmake/Modules/CMakeSystem.cmake.in /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake /usr/share/cmake/Modules/CMakeTestCompilerCommon.cmake /usr/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/Clang-CXX-CXXImportStd.cmake /usr/share/cmake/Modules/Compiler/Clang-CXX.cmake /usr/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake /usr/share/cmake/Modules/Compiler/Clang.cmake /usr/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /usr/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindPkgConfig.cmake /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake /usr/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake /usr/share/cmake/Modules/Internal/FeatureTesting.cmake /usr/share/cmake/Modules/Linker/GNU-CXX.cmake /usr/share/cmake/Modules/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Clang-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-Determine-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.31.10/CMakeCXXCompiler.cmake CMakeFiles/3.31.10/CMakeSystem.cmake: phony
+build /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/CMakeLists.txt /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/CMakeLists.txt /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux/CMakeLists.txt /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/ephemeral/generated_config.cmake /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/flutter/generated_plugins.cmake /home/mikaschreiber/Nextcloud/Freigaben/PageRank/CodeAblage/ProjectPageRank/frontend/linux/runner/CMakeLists.txt /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/Clang-CXX.cmake /usr/share/cmake/Modules/Compiler/Clang.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindPkgConfig.cmake /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/share/cmake/Modules/Linker/GNU-CXX.cmake /usr/share/cmake/Modules/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Clang-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.31.10/CMakeCXXCompiler.cmake CMakeFiles/3.31.10/CMakeSystem.cmake: phony
 
 
 #############################################

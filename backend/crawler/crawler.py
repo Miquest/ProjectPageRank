@@ -1,7 +1,5 @@
 from collections import Counter
-
 import requests
-from django.db.utils import IntegrityError
 from requests.exceptions import RequestException
 from bs4 import BeautifulSoup
 import time
@@ -31,14 +29,17 @@ class Crawler:
         expression_list = self.clean_text(soup.get_text())
         keyword_count = Counter(expression_list)
 
-        try:
-            current_web_page, _ = WebPage.objects.get_or_create(url=url,
-                                                                title=title,
-                                                                content=soup.get_text(
-                                                                    separator=" ", strip=True
-                                                                ))
-        except IntegrityError:
-            return
+        print(url)
+
+        if WebPage.objects.filter(url=url).exists():
+            current_web_page = WebPage.objects.get(url=url)
+        else:
+            current_web_page = WebPage.objects.create(url=url,
+                                                      title=title,
+                                                      content=soup.get_text(
+                                                          separator=" ", strip=True))
+
+            current_web_page.save()
 
         for word, count in keyword_count.items():
             # Filter words like "is" or "I" etc.
